@@ -1,0 +1,65 @@
+body {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/tileable-wood-colored.png");
+}
+
+.c-characters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c-characters__item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(238, 195, 5);
+}
+
+img {
+  height: 400px;
+  width: 250px;
+  border-color: rgb(238, 195, 5);
+  border-style: solid;
+  padding: 20px; 
+  background-image: url("https://i.ibb.co/7zhWxjc/rol.jpg");
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+  
+}
+img:hover{
+    border-color: black;
+  border-style: solid; 
+  background-image: url(" https://i.ibb.co/XzdSkKT/gif.gif");
+  box-shadow: 10px 5px 5px black;
+  
+}
+.c-arena {
+  max-width: 50%;
+  margin: 15px auto;
+  color: rgb(238, 195, 5);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-color: rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(238, 195, 5); 
+  border-color: black;
+  border-style: solid; 
+  background-image: url(" https://i.ibb.co/XzdSkKT/gif.gif");
+  border-radius: 35px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 15%;
+  box-shadow: 10px 5px 5px black;
+}
